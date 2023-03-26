@@ -10,7 +10,7 @@ import React,{useState} from "react";
         
         <div>
             <center>
-            <input type="text" placeholder="This Text Box" value={user} onChange={onchange} ></input>
+            <input type="text" placeholder="This Text Box ." value={user} onChange={onchange} ></input>
            <br/> {user}
             </center>
             <hr/>
